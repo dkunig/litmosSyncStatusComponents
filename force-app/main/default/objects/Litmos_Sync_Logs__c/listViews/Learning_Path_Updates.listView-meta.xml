@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Learning_Path_Updates</fullName>
+    <columns>NAME</columns>
+    <columns>Learning_Path__c</columns>
+    <columns>Date_Time_of_Sync__c</columns>
+    <columns>Status_of_Sync__c</columns>
+    <columns>Sync_Issues__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Learning Path Sync</value>
+    </filters>
+    <label>Learning Path Updates</label>
+    <sharedTo>
+        <group>LMS_Admins</group>
+    </sharedTo>
+</ListView>
