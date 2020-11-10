@@ -17,16 +17,16 @@ public class litmosSyncLogs {
         }
 		insert errorLogs;
     }
-   public static void logModuleSuccess(List<Litmos__Module__c> modules) {
+   public static void logModuleSuccess(List<Litmos__ModuleNew__c> modules) {
        List<Litmos_Sync_Logs__c> logs = new List<Litmos_Sync_Logs__c>();
-       for(Litmos__Module__c module : modules) {
+       for(Litmos__ModuleNew__c module : modules) {
             logs.add(new Litmos_Sync_Logs__c(Module__c = module.Id,Type__c = 'Module Sync', Date_Time_of_Sync__c = Date.today(), Status_of_Sync__c ='Success'));
        }
        insert logs;
    }
-   public static void logModuleErrors(List<Litmos__Module__c> modules, Map<String,String> errors) {
+   public static void logModuleErrors(List<Litmos__ModuleNew__c> modules, Map<String,String> errors) {
         List<Litmos_Sync_Logs__c> logs = new List<Litmos_Sync_Logs__c>();
-        for(Litmos__Module__c module : modules) {
+        for(Litmos__ModuleNew__c module : modules) {
                 logs.add(new Litmos_Sync_Logs__c(Module__c = module.Id,Type__c = 'Module Sync', Date_Time_of_Sync__c = Date.today(), Status_of_Sync__c ='Error',Sync_Issues__c = errors.get(module.Id)));
         }
         insert logs;   
@@ -68,10 +68,10 @@ public class litmosSyncLogs {
         }
         insert logs;
     }
-    public static void logTeamsErrors(List<Litmos_Team__c> teams, Map<String,String>errors) {
+    public static void logTeamsErrors(List<Litmos_Team__c> teams, Map<String,String> errors) {
         List<Litmos_Sync_Logs__c> logs = new List<Litmos_Sync_Logs__c>();
         for(Litmos_Team__c team : teams) {
-            logs.add(new Litmos_Sync_Logs__c(Litmos_Team__c = team.Id, Type__c = 'Team', Date_Time_of_Sync__c = Date.today(), Status_of_Sync__c = 'Errror', Sync_Issues__c = errors.get(team.Id)));
+            logs.add(new Litmos_Sync_Logs__c(Litmos_Team__c = team.Id, Type__c = 'Team', Date_Time_of_Sync__c = Date.today(), Status_of_Sync__c = 'Error', Sync_Issues__c = errors.get(team.Id)));
         }
         insert logs;
     }
@@ -85,8 +85,18 @@ public class litmosSyncLogs {
     public static void logTeamMemberErrors(List<Litmos_Team_Member__c> members, Map<String,String>errors) {
         List<Litmos_Sync_Logs__c> logs = new List<Litmos_Sync_Logs__c>();
         for(Litmos_Team_Member__c member : members) {
-            logs.add(new Litmos_Sync_Logs__c(Litmos_Team_Member__c = member.Id, Type__c = 'Team Member', Date_Time_of_Sync__c = Date.today(), Status_of_Sync__c = 'Errror', Sync_Issues__c = errors.get(member.Id)));
+            logs.add(new Litmos_Sync_Logs__c(Litmos_Team_Member__c = member.Id, Type__c = 'Team Member', Date_Time_of_Sync__c = Date.today(), Status_of_Sync__c = 'Error', Sync_Issues__c = errors.get(member.Id)));
         }
         insert logs;
+    }
+    public static void logTeamMemberErrors(String error, String TeamId) {
+        Litmos_Sync_Logs__c log = new Litmos_Sync_Logs__c();
+        log.Type__c = 'Team Member';
+        log.Date_Time_of_Sync__c = Date.today();
+        log.Status_of_Sync__c = 'Error';
+        log.Sync_Issues__c = error;
+        log.Litmos_Team__c = TeamId;
+        insert log;
+        
     }
 }

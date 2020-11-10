@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <types>
+        <members>litmosSyncController</members>
+        <members>litmosSyncLogs</members>
+        <members>litmosSyncLogsTEST</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>litmosCourseSyncInfo</members>
+        <members>litmosSyncInfoTab</members>
+        <members>litmosUserSyncInfo</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Litmos_Sync_Logs__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Litmos_Sync_Info</members>
+        <members>Litmos_Sync_Logs__c</members>
+        <name>CustomTab</name>
+    </types>
+    <!--<types>
+        <members>LMS_Admin</members>
+        <name>CustomApplication</members>
+    </types> -->
+    <version>50.0</version>
+</Package>

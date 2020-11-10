@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Updates</fullName>
+    <columns>NAME</columns>
+    <columns>Litmos_Team__c</columns>
+    <columns>Date_Time_of_Sync__c</columns>
+    <columns>Status_of_Sync__c</columns>
+    <columns>Sync_Issues__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Team</value>
+    </filters>
+    <label>Team Updates</label>
+    <sharedTo>
+        <group>LMS_Admins</group>
+    </sharedTo>
+</ListView>
