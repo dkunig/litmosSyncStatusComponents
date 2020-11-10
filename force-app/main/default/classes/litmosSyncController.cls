@@ -1,7 +1,6 @@
 public class litmosSyncController {
 	@AuraEnabled(cacheable=true)
     public static List<Litmos_Sync_Logs__c> getUserSyncInfo() {
-        System.debug([SELECT Id,Name,User__r.Name,Date_Time_of_Sync__c,Litmos_User_Id__c,Status_of_Sync__c,Sync_Issues__c FROM Litmos_Sync_Logs__c WHERE Type__c = 'User Create']);
         return [SELECT Id,Name,User__r.Name,Date_Time_of_Sync__c,User__r.Litmos__LitmosUserId__c,Status_of_Sync__c,Sync_Issues__c FROM Litmos_Sync_Logs__c WHERE Type__c = 'User Create'];
     }
     @AuraEnabled(cacheable=true)
