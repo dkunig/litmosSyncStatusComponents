@@ -2,6 +2,7 @@
 <Package>
     <types>
         <members>litmosSyncController</members>
+        <members>litmosSyncControllerTEST</members>
         <members>litmosSyncLogs</members>
         <members>litmosSyncLogsTEST</members>
         <name>ApexClass</name>
