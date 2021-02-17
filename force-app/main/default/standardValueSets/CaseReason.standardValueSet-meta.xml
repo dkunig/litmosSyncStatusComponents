@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Activity Logging</fullName>
+        <default>false</default>
+        <label>Activity Logging</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Alerts / Notifications</fullName>
+        <default>false</default>
+        <label>Alerts / Notifications</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Analytics</fullName>
+        <default>false</default>
+        <label>Analytics</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Application Support Request</fullName>
+        <default>false</default>
+        <label>Application Support Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approval</fullName>
+        <default>false</default>
+        <label>Approval</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>AR Query</fullName>
+        <default>false</default>
+        <label>AR Query</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assay Design</fullName>
+        <default>false</default>
+        <label>Assay Design</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assignment</fullName>
+        <default>false</default>
+        <label>Assignment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>AX Integration</fullName>
+        <default>false</default>
+        <label>AX Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Bug Fix</fullName>
+        <default>false</default>
+        <label>Bug Fix</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancellation / Recall</fullName>
+        <default>false</default>
+        <label>Cancellation / Recall</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Case</fullName>
+        <default>false</default>
+        <label>Case</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Escalation</fullName>
+        <default>false</default>
+        <label>Case Escalation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Comment</fullName>
+        <default>false</default>
+        <label>Comment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Configuration</fullName>
+        <default>false</default>
+        <label>Configuration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Consumable Request</fullName>
+        <default>false</default>
+        <label>Consumable Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Content Management</fullName>
+        <default>false</default>
+        <label>Content Management</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contracted Discounts</fullName>
+        <default>false</default>
+        <label>Contracted Discounts</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Analysis</fullName>
+        <default>false</default>
+        <label>Data Analysis</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Backup</fullName>
+        <default>false</default>
+        <label>Data Backup</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Cleanup</fullName>
+        <default>false</default>
+        <label>Data Cleanup</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Quality</fullName>
+        <default>false</default>
+        <label>Data Quality</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Request</fullName>
+        <default>false</default>
+        <label>Data Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Deals Desk</fullName>
+        <default>false</default>
+        <label>Deals Desk</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>De-Duplication</fullName>
+        <default>false</default>
+        <label>De-Duplication</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo</fullName>
+        <default>false</default>
+        <label>Demo</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Discount</fullName>
+        <default>false</default>
+        <label>Discount</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Discrepancy Report</fullName>
+        <default>false</default>
+        <label>Discrepancy Report</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Documentation Request</fullName>
+        <default>false</default>
+        <label>Documentation Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate/Error</fullName>
+        <default>false</default>
+        <label>Duplicate/Error</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate case</fullName>
+        <default>false</default>
+        <label>Duplicate case</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Commerce Integration</fullName>
+        <default>false</default>
+        <label>E-Commerce Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Template Add/Change</fullName>
+        <default>false</default>
+        <label>Email Template Add/Change</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Excel Integration</fullName>
+        <default>false</default>
+        <label>Excel Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Experiment</fullName>
+        <default>false</default>
+        <label>Experiment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Feedback / Complaint</fullName>
+        <default>false</default>
+        <label>Feedback / Complaint</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Fulfillment</fullName>
+        <default>false</default>
+        <label>Fulfillment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>FYI</fullName>
+        <default>false</default>
+        <label>FYI</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Information Request</fullName>
+        <default>false</default>
+        <label>Information Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Instrument Operation</fullName>
+        <default>false</default>
+        <label>Instrument Operation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Integration</fullName>
+        <default>false</default>
+        <label>Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Assignment</fullName>
+        <default>false</default>
+        <label>Lead Assignment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Assignment Failure</fullName>
+        <default>false</default>
+        <label>Lead Assignment Failure</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>License Renewal</fullName>
+        <default>false</default>
+        <label>License Renewal</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintenance Inquiry</fullName>
+        <default>false</default>
+        <label>Maintenance Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintenance Request</fullName>
+        <default>false</default>
+        <label>Maintenance Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketo Integration</fullName>
+        <default>false</default>
+        <label>Marketo Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Feature</fullName>
+        <default>false</default>
+        <label>New Feature</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Hire Announcement</fullName>
+        <default>false</default>
+        <label>New Hire Announcement</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Part Request</fullName>
+        <default>false</default>
+        <label>New Part Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>NO MATCH</fullName>
+        <default>false</default>
+        <label>NO MATCH</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity Creation</fullName>
+        <default>false</default>
+        <label>Opportunity Creation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Order</fullName>
+        <default>false</default>
+        <label>Order</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Status</fullName>
+        <default>false</default>
+        <label>Order Status</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Outlook Integration</fullName>
+        <default>false</default>
+        <label>Outlook Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Panel and Experimental Design/Optimization</fullName>
+        <default>false</default>
+        <label>Panel and Experimental Design/Optimization</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Panel Design</fullName>
+        <default>false</default>
+        <label>Panel Design</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Permission</fullName>
+        <default>false</default>
+        <label>Permission</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Portal</fullName>
+        <default>false</default>
+        <label>Portal</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Inquiry</fullName>
+        <default>false</default>
+        <label>Product Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Management</fullName>
+        <default>false</default>
+        <label>Product Management</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Proteomics Org Integration</fullName>
+        <default>false</default>
+        <label>Proteomics Org Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Publication Clearance Process</fullName>
+        <default>false</default>
+        <label>Publication Clearance Process</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quality Concern</fullName>
+        <default>false</default>
+        <label>Quality Concern</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Question/Feedback</fullName>
+        <default>false</default>
+        <label>Question/Feedback</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Approval</fullName>
+        <default>false</default>
+        <label>Quote Approval</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Creation</fullName>
+        <default>false</default>
+        <label>Quote Creation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reagent</fullName>
+        <default>false</default>
+        <label>Reagent</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rebranding Activity</fullName>
+        <default>false</default>
+        <label>Rebranding Activity</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Remote Training</fullName>
+        <default>false</default>
+        <label>Remote Training</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Report - Modification</fullName>
+        <default>false</default>
+        <label>Report - Modification</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Report - New</fullName>
+        <default>false</default>
+        <label>Report - New</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Request for Quote</fullName>
+        <default>false</default>
+        <label>Request for Quote</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>RMA</fullName>
+        <default>false</default>
+        <label>RMA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Inquiry</fullName>
+        <default>false</default>
+        <label>Sales Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sample Prep (Protocols or Reagents)</fullName>
+        <default>false</default>
+        <label>Sample Prep (Protocols or Reagents)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>See Parent Case</fullName>
+        <default>false</default>
+        <label>See Parent Case</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Plan Discount</fullName>
+        <default>false</default>
+        <label>Service Plan Discount</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Request</fullName>
+        <default>false</default>
+        <label>Service Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Sales Request</fullName>
+        <default>false</default>
+        <label>Service Sales Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping Information</fullName>
+        <default>false</default>
+        <label>Shipping Information</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>SPAM</fullName>
+        <default>false</default>
+        <label>Spam</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>SteelBrick CPQ</fullName>
+        <default>false</default>
+        <label>SteelBrick CPQ</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Suspected Failure</fullName>
+        <default>false</default>
+        <label>Suspected Failure</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Suspected Reagent Failure</fullName>
+        <default>false</default>
+        <label>Suspected Reagent Failure</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Suspected Software Bug</fullName>
+        <default>false</default>
+        <label>Suspected Software Bug</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Suspected Website Bug</fullName>
+        <default>false</default>
+        <label>Suspected Website Bug</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Territory Management</fullName>
+        <default>false</default>
+        <label>Territory Management</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tool Request</fullName>
+        <default>false</default>
+        <label>Tool Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tracking Purposes</fullName>
+        <default>false</default>
+        <label>Tracking Purposes</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Training / Instructions</fullName>
+        <default>false</default>
+        <label>Training / Instructions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Troubleshooting</fullName>
+        <default>false</default>
+        <label>Troubleshooting</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tuning / Optimization</fullName>
+        <default>false</default>
+        <label>Tuning / Optimization</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>User Error</fullName>
+        <default>false</default>
+        <label>User Error</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>User Management</fullName>
+        <default>false</default>
+        <label>User Management</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor</fullName>
+        <default>false</default>
+        <label>Vendor</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Browser Issue</fullName>
+        <default>false</default>
+        <label>Web Browser Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

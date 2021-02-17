@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_Information__c</fullName>
+    <description>Field to hold information about sync, such as number of team members uploaded when in bulk. Not for describing issues.</description>
+    <externalId>false</externalId>
+    <label>Sync Information</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

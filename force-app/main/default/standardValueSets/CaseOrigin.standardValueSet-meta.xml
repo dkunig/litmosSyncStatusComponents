@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Email</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <color>#78C953</color>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Personal Meeting</fullName>
+        <color>#E27001</color>
+        <default>false</default>
+        <label>Personal Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CSR - Tech Support Standard WG</fullName>
+        <color>#990000</color>
+        <default>false</default>
+        <label>CSR - Tech Support Standard WG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CSR - Tech Support Voicemail</fullName>
+        <color>#A845DC</color>
+        <default>false</default>
+        <label>CSR - Tech Support Voicemail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CSR - Tech Support Priority WG</fullName>
+        <color>#996633</color>
+        <default>false</default>
+        <label>CSR - Tech Support Priority WG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Techsupport@fluidigm.com</fullName>
+        <color>#F3D904</color>
+        <default>false</default>
+        <label>Techsupport@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CreateCase@fluidigm.com</fullName>
+        <color>#A53711</color>
+        <default>false</default>
+        <label>CreateCase@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Techsupporteurope@fluidigm.com</fullName>
+        <color>#999999</color>
+        <default>false</default>
+        <label>Techsupporteurope@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Techsupportasia@fluidigm.com</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Techsupportasia@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>crm@fluidigm.com</fullName>
+        <color>#57F17C</color>
+        <default>false</default>
+        <label>crm@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TechGroup@fluidigm.com</fullName>
+        <color>#333333</color>
+        <default>false</default>
+        <label>TechGroup@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TechSupportJapan@fluidigm.com</fullName>
+        <color>#F96FB7</color>
+        <default>false</default>
+        <label>TechSupportJapan@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional Tech Support Hotline</fullName>
+        <color>#FFCC33</color>
+        <default>false</default>
+        <label>Regional Tech Support Hotline</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Continued Customer Care</fullName>
+        <color>#000099</color>
+        <default>false</default>
+        <label>Continued Customer Care</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dynamics AX End User Email</fullName>
+        <default>false</default>
+        <label>Dynamics AX End User Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website Case</fullName>
+        <default>false</default>
+        <label>Website Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CTSSupport@fluidigm.com</fullName>
+        <default>false</default>
+        <label>CTSSupport@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>surveyalert@fluidigm.com</fullName>
+        <default>false</default>
+        <label>surveyalert@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>techsupportlatam@fluidigm.com</fullName>
+        <default>false</default>
+        <label>techsupportlatam@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>techsupportchina@fluidigm.com</fullName>
+        <default>false</default>
+        <label>techsupportchina@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CreateRCDCase@fluidigm.com</fullName>
+        <default>false</default>
+        <label>CreateRCDCase@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>support.northamerica@fluidigm.com</fullName>
+        <default>false</default>
+        <label>support.northamerica@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>support.Europe@fluidigm.com</fullName>
+        <default>false</default>
+        <label>support.Europe@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>support.ROW@fluidigm.com</fullName>
+        <default>false</default>
+        <label>support.ROW@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>training@fluidigm.com</fullName>
+        <default>false</default>
+        <label>training@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>support@fluidigm.com</fullName>
+        <default>false</default>
+        <label>support@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>customerfeedback@fluidigm.com</fullName>
+        <default>false</default>
+        <label>customerfeedback@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing@fluidigm.com</fullName>
+        <default>false</default>
+        <label>Pricing@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DealsDesk@fluidigm.com</fullName>
+        <default>false</default>
+        <label>DealsDesk@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chatter</fullName>
+        <default>false</default>
+        <label>Chatter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PathsetterSupport@fluidigm.com</fullName>
+        <default>false</default>
+        <label>PathsetterSupport@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>createcasepx@fluidigm.com</fullName>
+        <default>false</default>
+        <label>createcasepx@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>orders@fluidigm.com</fullName>
+        <default>false</default>
+        <label>orders@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>lms@fluidigm.com</fullName>
+        <default>false</default>
+        <label>lms@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eu.support@fluidigm.com</fullName>
+        <default>false</default>
+        <label>eu.support@fluidigm.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web to Case</fullName>
+        <default>false</default>
+        <label>Web to Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CyTOF Software Upgrade</fullName>
+        <default>false</default>
+        <label>CyTOF Software Upgrade</label>
+    </standardValue>
+</StandardValueSet>

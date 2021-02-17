@@ -3,20 +3,38 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Litmos_Team_Record_Page</content>
+        <content>Course_Record_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Litmos_Team__c</pageOrSobjectType>
+        <pageOrSobjectType>Litmos__Program__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Litmos_Team_Record_Page</content>
+        <content>Course_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Litmos_Team__c</pageOrSobjectType>
+        <pageOrSobjectType>Litmos__Program__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Learning_Path_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Litmos__LearningPath__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Learning_Path_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Litmos__LearningPath__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
@@ -26,7 +44,7 @@
         <type>Flexipage</type>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
     </actionOverrides>
-    <actionOverrides>
+    <!--<actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Group_Record_Page</content>
@@ -43,6 +61,42 @@
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
         <pageOrSobjectType>CollaborationGroup</pageOrSobjectType>
+    </actionOverrides>-->
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Litmos_Team_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Litmos_Team__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Litmos_Team_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Litmos_Team__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Module_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Litmos__ModuleNew__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Module_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Litmos__ModuleNew__c</pageOrSobjectType>
     </actionOverrides>
     <brand>
         <headerColor>#000000</headerColor>
@@ -59,21 +113,16 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>Litmos__Dashboard</tabs>
-    <tabs>Litmos__Litmos_LE</tabs>
-    <tabs>Litmos__Litmos_Setup</tabs>
     <tabs>Litmos__Litmos_Setup_LE</tabs>
-    <tabs>Litmos__LearningPath__c</tabs>
-    <tabs>Litmos__Program__c</tabs>
+    <tabs>Litmos__My_Users_LE</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>Litmos__My_Users</tabs>
-    <tabs>Litmos__My_Users_LE</tabs>
-    <tabs>Litmos_Queue</tabs>
-    <tabs>Litmos__UserProgramResult__c</tabs>
-    <tabs>Litmos_Sync_Logs__c</tabs>
-    <tabs>Litmos_Sync_Info</tabs>
+    <tabs>Litmos__Program__c</tabs>
+    <tabs>Litmos__LearningPath__c</tabs>
+    <tabs>Litmos__ModuleNew__c</tabs>
     <tabs>Litmos_Team__c</tabs>
+    <tabs>Litmos_Sync_Logs__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LMS_Admin_UtilityBar</utilityBar>
 </CustomApplication>

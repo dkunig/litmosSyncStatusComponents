@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LMS_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>LMS Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bulk enrollment requests</fullName>
+                <default>false</default>
+                <label>Bulk enrollment requests</label>
+            </value>
+            <value>
+                <fullName>Course bugs</fullName>
+                <default>false</default>
+                <label>Course bugs</label>
+            </value>
+            <value>
+                <fullName>Developing courses</fullName>
+                <default>false</default>
+                <label>Developing courses</label>
+            </value>
+            <value>
+                <fullName>How to</fullName>
+                <default>false</default>
+                <label>How to</label>
+            </value>
+            <value>
+                <fullName>Log In Issues</fullName>
+                <default>false</default>
+                <label>Log In Issues</label>
+            </value>
+            <value>
+                <fullName>New team requests</fullName>
+                <default>false</default>
+                <label>New team requests</label>
+            </value>
+            <value>
+                <fullName>New User Inquiry</fullName>
+                <default>false</default>
+                <label>New User Inquiry</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Report requests</fullName>
+                <default>false</default>
+                <label>Report requests</label>
+            </value>
+            <value>
+                <fullName>Salesforce access</fullName>
+                <default>false</default>
+                <label>Salesforce access</label>
+            </value>
+            <value>
+                <fullName>System bugs</fullName>
+                <default>false</default>
+                <label>System bugs</label>
+            </value>
+            <value>
+                <fullName>Testing Litmos Heroes courses</fullName>
+                <default>false</default>
+                <label>Testing Litmos Heroes courses</label>
+            </value>
+            <value>
+                <fullName>User Interface Issue</fullName>
+                <default>false</default>
+                <label>User Interface Issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

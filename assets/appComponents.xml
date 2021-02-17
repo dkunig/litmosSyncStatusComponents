@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Litmos__LearningPath__c</members>
+        <members>Litmos__Program__c</members>
+        <members>Litmos__ModuleNew__c</members>
+        <members>Litmos_Team__c</members>
+        <members>Litmos_Sync_Logs__c</members>
+        <name>CustomTab</members>
+    </types>
+    <types>
+        <members>Course_Record_Page</members>
+        <members>Learning_Path_Record_Page</members>
+        <members>Litmos_Home</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Case.My_LMS_Cases</members>
+        <members>Litmos__Program__c.Active_Courses_with_Enrollments</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Case.LMS_Category__c</members>
+        <name>CustomField</name>
+    </types>
+    <!--<types>
+        <members>Litmos_Full_Permission_Set</members>
+        <name>PermissionSet</name>
+    </types>-->
+    <version>50.0</version>
+</Package>
