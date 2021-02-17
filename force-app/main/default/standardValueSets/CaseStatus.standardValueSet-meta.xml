@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>FAS/FSE Dispatched</fullName>
+        <default>false</default>
+        <label>FAS/FSE Dispatched</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Dispatch Acknowledged</fullName>
+        <default>false</default>
+        <label>Dispatch Acknowledged</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Repair Center Dispatched</fullName>
+        <default>false</default>
+        <label>Repair Center Dispatched</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Request Acknowledged</fullName>
+        <default>false</default>
+        <label>Quote Request Acknowledged</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Quote Requested</fullName>
+        <default>false</default>
+        <label>Service Quote Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved</fullName>
+        <default>false</default>
+        <label>Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved - Duplicate</fullName>
+        <default>false</default>
+        <label>Resolved - Duplicate</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved - Spam</fullName>
+        <default>false</default>
+        <label>Resolved - Spam</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assessing</fullName>
+        <default>false</default>
+        <label>Assessing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Process</fullName>
+        <default>false</default>
+        <label>In Process</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivered - Pending Confirmation</fullName>
+        <default>false</default>
+        <label>Delivered - Pending Confirmation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Need more information</fullName>
+        <default>false</default>
+        <label>Need more information</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ref To Parent Case</fullName>
+        <default>false</default>
+        <label>Ref To Parent Case</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed - Spam</fullName>
+        <default>false</default>
+        <label>Completed - Spam</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Cancellation</fullName>
+        <default>false</default>
+        <label>Customer Cancellation</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed - Duplicate</fullName>
+        <default>false</default>
+        <label>Completed - Duplicate</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

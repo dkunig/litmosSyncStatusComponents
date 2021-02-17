@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Litmos__OverallCompletionResult__c.Litmos__UserID__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Litmos__OverallCompletionResult__c.Litmos__TotalCoursesAssigned__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Litmos__OverallCompletionResult__c.Litmos__TotalCoursesCompleted__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Litmos__OverallCompletionResult__c.Litmos__TotalLearningPathAssigned__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Litmos__OverallCompletionResult__c.Litmos__TotalLearningPathsCompleted__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Number of courses and learning paths assigned, along with numbers completed, by user.</description>
+    <filter>
+        <criteriaItems>
+            <column>Litmos__OverallCompletionResult__c.Litmos__UserID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>SFDC</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Courses Assigned and Completed</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Litmos__OverallCompletionResult__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Litmos__OverallCompletionResult__c.Litmos__Last_Updated__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

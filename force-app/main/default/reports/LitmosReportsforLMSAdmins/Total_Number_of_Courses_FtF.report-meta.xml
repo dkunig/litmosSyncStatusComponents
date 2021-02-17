@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Litmos__Program__c$Litmos__Users_Completed__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Litmos__Program__c$Litmos__Users_Assigned__c</field>
+    </columns>
+    <columns>
+        <field>Litmos__Program__c$Litmos__UpdatedDate__c</field>
+    </columns>
+    <columns>
+        <field>Litmos__Program__c$Owner</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Total number of courses in LMS. Includes courses added to Learning Paths.</description>
+    <filter>
+        <criteriaItems>
+            <column>Litmos__Program__c$Litmos__Active__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Litmos__Program__c$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Litmos__Program__c$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>In Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Litmos__Program__c$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Template</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Litmos__Program__c$Litmos__Deleted__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Litmos__Program__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Total Number of Courses</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Litmos__Programs__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Litmos__Program__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

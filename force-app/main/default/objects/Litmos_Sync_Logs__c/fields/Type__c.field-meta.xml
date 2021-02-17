@@ -40,6 +40,21 @@
                 <default>false</default>
                 <label>Team Member</label>
             </value>
+            <value>
+                <fullName>Bulk Team Member</fullName>
+                <default>false</default>
+                <label>Bulk Team Member</label>
+            </value>
+            <value>
+                <fullName>Learning Path Program</fullName>
+                <default>false</default>
+                <label>Learning Path Program</label>
+            </value>
+            <value>
+                <fullName>Course Module</fullName>
+                <default>false</default>
+                <label>Course Module</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

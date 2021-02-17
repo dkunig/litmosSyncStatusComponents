@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Learning_Paths_with_Enrollments</fullName>
+    <columns>NAME</columns>
+    <columns>Litmos__Users_Assigned__c</columns>
+    <columns>Litmos__Users_Completed__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Litmos__Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Litmos__Users_Assigned__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Active Learning Paths with Enrollments</label>
+    <sharedTo>
+        <group>LMS_Admins</group>
+    </sharedTo>
+</ListView>
